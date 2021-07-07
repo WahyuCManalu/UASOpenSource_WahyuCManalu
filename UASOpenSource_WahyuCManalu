@@ -1,0 +1,149 @@
+print("Toko Makanan WahyuCManalu")
+print("-------------------------")
+print("Pilihan Menu :...")
+print("A. Nasi Goreng => Rp 10000")
+print("B. Mie Goreng  => Rp 12000")
+print("C. Bakso       => Rp 12000")
+print("D. Sate        => Rp 15000")
+print("E. Jus Jeruk   => Rp 7000")
+print("F. Jus Alpukat => Rp 8000")
+print("G. Jus Mangga  => Rp 7000")
+print("H. Teh Es      => Rp 5000")
+print("==========================")
+print("(Beli 2 dapat diskon 15%)")
+opsi = input("Pilih Menunya : ")
+if opsi == "a":
+    jumlah = int(input("Jumlah : "))
+    uang_anda = int(input("Uang Anda : "))
+    harga = 10000
+    diskon = harga*jumlah*15/100
+    total_bayar = uang_anda - diskon
+    if jumlah == 1:
+        print("Anda akan membeli Nasi Goreng sebanyak : ",
+              jumlah, "dengan harga : ", harga)
+        print("Kembalian : ", uang_anda - harga)
+    elif jumlah == 2:
+        print("Anda akan membeli Nasi Goreng sebanyak : ", jumlah,
+              "dengan harga : ", harga, "dan diskon sebesar 15%")
+        print("Total diskon", diskon)
+        print("Total bayar : ", total_bayar)
+        print("Kembalian : ", uang_anda - total_bayar)
+
+if opsi == "b":
+    jumlah = int(input("Jumlah : "))
+    uang_anda = int(input("Uang Anda : "))
+    harga = 12000
+    diskon = harga*jumlah*15/100
+    total_bayar = uang_anda - diskon
+    if jumlah == 1:
+        print("Anda akan membeli Mie Goreng sebanyak : ",
+              jumlah, "dengan harga : ", harga)
+        print("Kembalian : ", uang_anda - harga)
+    elif jumlah == 2:
+        print("Anda akan membeli Mie Goreng sebanyak : ", jumlah,
+              "dengan harga : ", harga, "dan diskon sebesar 15%")
+        print("Total diskon", diskon)
+        print("Total bayar : ", total_bayar)
+        print("Kembalian : ", uang_anda - total_bayar)
+
+if opsi == "c":
+    jumlah = int(input("Jumlah : "))
+    uang_anda = int(input("Uang Anda : "))
+    harga = 12000
+    diskon = harga*jumlah*15/100
+    total_bayar = uang_anda - diskon
+    if jumlah == 1:
+        print("Anda akan membeli Bakso sebanyak : ",
+              jumlah, "dengan harga : ", harga)
+        print("Kembalian : ", uang_anda - harga)
+    elif jumlah == 2:
+        print("Anda akan membeli Bakso sebanyak : ", jumlah,
+              "dengan harga : ", harga, "dan diskon sebesar 15%")
+        print("Total diskon", diskon)
+        print("Total bayar : ", total_bayar)
+        print("Kembalian : ", uang_anda - total_bayar)
+
+if opsi == "d":
+    jumlah = int(input("Jumlah : "))
+    uang_anda = int(input("Uang Anda : "))
+    harga = 15000
+    diskon = harga*jumlah*15/100
+    total_bayar = uang_anda - diskon
+    if jumlah == 1:
+        print("Anda akan membeli Sate sebanyak : ",
+              jumlah, "dengan harga : ", harga)
+        print("Kembalian : ", uang_anda - harga)
+    elif jumlah == 2:
+        print("Anda akan membeli Sate sebanyak : ", jumlah,
+              "dengan harga : ", harga, "dan diskon sebesar 15%")
+        print("Total diskon", diskon)
+        print("Total bayar : ", total_bayar)
+        print("Kembalian : ", uang_anda - total_bayar)
+
+if opsi == "e":
+    jumlah = int(input("Jumlah : "))
+    uang_anda = int(input("Uang Anda : "))
+    harga = 7000
+    diskon = harga*jumlah*15/100
+    total_bayar = uang_anda - diskon
+    if jumlah == 1:
+        print("Anda akan membeli Jus Jeruk sebanyak : ",
+              jumlah, "dengan harga : ", harga)
+        print("Kembalian : ", uang_anda - harga)
+    elif jumlah == 2:
+        print("Anda akan membeli Jus Jeruk sebanyak : ", jumlah,
+              "dengan harga : ", harga, "dan diskon sebesar 15%")
+        print("Total diskon", diskon)
+        print("Total bayar : ", total_bayar)
+        print("Kembalian : ", uang_anda - total_bayar)
+
+if opsi == "f":
+    jumlah = int(input("Jumlah : "))
+    uang_anda = int(input("Uang Anda : "))
+    harga = 8000
+    diskon = harga*jumlah*15/100
+    total_bayar = uang_anda - diskon
+    if jumlah == 1:
+        print("Anda akan membeli Jus Alpukat sebanyak : ",
+              jumlah, "dengan harga : ", harga)
+        print("Kembalian : ", uang_anda - harga)
+    elif jumlah == 2:
+        print("Anda akan membeli Jus Alpukat sebanyak : ", jumlah,
+              "dengan harga : ", harga, "dan diskon sebesar 15%")
+        print("Total diskon", diskon)
+        print("Total bayar : ", total_bayar)
+        print("Kembalian : ", uang_anda - total_bayar)
+
+if opsi == "g":
+    jumlah = int(input("Jumlah : "))
+    uang_anda = int(input("Uang Anda : "))
+    harga = 7000
+    diskon = harga*jumlah*15/100
+    total_bayar = uang_anda - diskon
+    if jumlah == 1:
+        print("Anda akan membeli Jus Mangga sebanyak : ",
+              jumlah, "dengan harga : ", harga)
+        print("Kembalian : ", uang_anda - harga)
+    elif jumlah == 2:
+        print("Anda akan membeli Jus Mangga sebanyak : ", jumlah,
+              "dengan harga : ", harga, "dan diskon sebesar 15%")
+        print("Total diskon", diskon)
+        print("Total bayar : ", total_bayar)
+        print("Kembalian : ", uang_anda - total_bayar)
+
+if opsi == "h":
+    jumlah = int(input("Jumlah : "))
+    uang_anda = int(input("Uang Anda : "))
+    harga = 5000
+    diskon = harga*jumlah*15/100
+    total_bayar = uang_anda - diskon
+    if jumlah == 1:
+        print("Anda akan membeli Teh Es sebanyak : ",
+              jumlah, "dengan harga : ", harga)
+        print("Kembalian : ", uang_anda - harga)
+    elif jumlah == 2:
+        print("Anda akan membeli Teh Es sebanyak : ", jumlah,
+              "dengan harga : ", harga, "dan diskon sebesar 15%")
+        print("Total diskon", diskon)
+        print("Total bayar : ", total_bayar)
+        print("Kembalian : ", uang_anda - total_bayar)
